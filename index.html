@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>FORM BOOSTRAP</title>
+</head>
+
+<body>
+
+    <form class="mt-3 w-50 mx-auto bg-light p-5">
+        <fieldset class="border-bottom border-muted">
+            <div class="form-row form-group">
+                <div class="form-group col-md-6">
+                    <label>Nombre de pila</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Apellido</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+
+            <div class="input-group form-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">@</div>
+                </div>
+                <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Nombre de usuario">
+            </div>
+            <div class="form-group">
+                <label class="" for="email">Correo electronico <span class="text-muted">(optional)</span></label>
+                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            </div>
+            <div class="form-group">
+                <label for="adress">Habla a</label>
+                <input type="text" class="form-control" name="adress" id="adress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+                <label for="adress2">Direccion 2 <span class="text-muted">(optional)</span></label>
+                <input type="text" class="form-control" name="adress2" id="adress2" placeholder="Apartamento o suite">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-5">
+                    <label for="pais">Pais</label>
+                    <select class="form-control">
+                        <option value="" disabled selected>Escoger...</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="estado">Estado</label>
+                    <select class="form-control">
+                        <option value="" disabled selected>Escoger...</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="cp">Codigo Postal</label>
+                    <input type="number" class="form-control">
+                </div>
+            </div>
+        </fieldset>
+        <fieldset class="mt-3 border-bottom border-muted">
+            <div class="form-group form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkbox1">
+                <label class="form-check-label" for="checkbox1">
+                    La direccion de envio es la misma que mi direccion de facturacion
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkbox2">
+                <label class="form-check-label" for="checkbox2">
+                    Guarde esta informacion para la proxima vez
+                </label>
+            </div>
+        </fieldset>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
